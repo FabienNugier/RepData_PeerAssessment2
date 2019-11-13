@@ -108,8 +108,8 @@ d5 <- d5[d5$evtype=="DROUGHT",]
 
 png("./Plot3-Time_Evolution.png", width=480, height=480, units="px")
 require(gridExtra)
-p5 <- ggplot() + geom_point(data=d3, aes(x=date, y=log(1+fatal)), color="red", alpha=0.5) + geom_point(data=d3, aes(x=date, y=log(1+injur)), color="blue", alpha=0.1) + ylab("log(1+X)") + ggtitle("Fatalities (red) & Injuries (blue) from Tornados over time")
-p6 <- ggplot() + geom_point(data=d4, aes(x=date, y=log(1+propdmg)), color="green", alpha=0.1) + geom_point(data=d5, aes(x=date, y=log(1+cropdmg)), color="orange", alpha=0.5) + ylab("log(1+X)") + ggtitle("Floods Property-damages (green) & Drought Crop-damages (orange) \nover time")
+p5 <- ggplot() + geom_point(data=d3, aes(x=date, y=log(1+fatal)), color="red", alpha=0.5) + geom_point(data=d3, aes(x=date, y=log(1+injur)), color="blue", alpha=0.1) + ylab("log(1+Y)") + ggtitle("Fatalities (red) & Injuries (blue) from Tornados over time")
+p6 <- ggplot() + geom_point(data=d4, aes(x=date, y=log(1+propdmg)), color="green", alpha=0.1) + geom_point(data=d5, aes(x=date, y=log(1+cropdmg)), color="orange", alpha=0.5) + ylab("log(1+Y)") + ggtitle("Floods Property-damages (green) & Drought Crop-damages (orange) \nover time")
 grid.arrange(p5,p6,nrow=2)
 dev.off()
 
