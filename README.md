@@ -4,8 +4,8 @@ This project is the assignment for the course "Reproducible Research - Week4" by
 
 > The following description is taken from the Coursera assignment page, as a personal reminder of the requested tasks and as a guide for understanding the rest of the folder content.
 
-You can also find the result of this analysis on RPubs:
-<span style="color:red">[TO BE UPDATED.]</span>
+<span style="color:red">**You can also find the result of this analysis on RPubs:**</span>
+  [**Link to RPubs**](http://rpubs.com/FabNugier/Storm-Events-Impact)
 
 
 # Introduction
@@ -20,6 +20,8 @@ This project involves exploring the U.S. National Oceanic and Atmospheric Admini
 The data for this assignment come in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size. You can download the file from the course web site:
 
 [Storm Data [47Mb]](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2)
+
+**Note:** the unzipped file is about **500 MB** in size!
 
 There is also some documentation of the database available. Here you will find how some of the variables are constructed/defined.
 
