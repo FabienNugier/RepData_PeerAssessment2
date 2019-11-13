@@ -1,6 +1,6 @@
 # Storm events impact on population health and economy
 
-This project is the assignment for the course "Reproducible Research - Week4" by John Hopkins University on Coursera.
+This project is the assignment for the course "Reproducible Research - Week4" by Johns Hopkins University on Coursera.
 
 > The following description is taken from the Coursera assignment page, as a personal reminder of the requested tasks and as a guide for understanding the rest of the folder content.
 

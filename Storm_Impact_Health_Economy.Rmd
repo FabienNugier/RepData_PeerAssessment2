@@ -3,8 +3,8 @@ title: "Storm events impact on population health and economy"
 author: "Fabien Nugier"
 date: "11/12/2019"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Synopsis
 
-This project is the second assigment of the **Coursera lecture "Reproducible Research"** by the **John Hopkins University**. In this project, we will consider data from the *U.S. National Oceanic and Atmospheric Administration (NOAA)* database in order to answer two questions:
+This project is the second assigment of the **Coursera lecture "Reproducible Research"** by the **Johns Hopkins University**. In this project, we will consider data from the *U.S. National Oceanic and Atmospheric Administration (NOAA)* database in order to answer two questions:
 
 - Across the United States, which types of events are most harmful with respect to population health?
 
